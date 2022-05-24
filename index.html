@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- for the change temp function, I can make all of the temps have the same class to convert all of them -->
+    <div class="navbar">
+        <div class="innernav">
+            <h1>DojoWeather</h1>
+            <div class="citynames">
+                <!-- is unordered list okay? Unordered list is fine. Adding cursor pointer is good, but not required. -->
+                <ul>
+                    <li>Burbank</li>
+                    <li>Chicago</li>
+                    <li>Dallas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="citytempselect">
+        <h1>San Jose</h1>
+        <div class="citytempselectright">
+            <!-- for and name should match up and it is okay for the id to be the same.-->
+            <label for="units">show temperature in</label>
+            <select name="units" id="units">
+                <option value="&#176;C">&#176;C</option>
+                <option value="&#176;F">&#176;F</option>
+            </select>
+        </div>
+    </div>
+    <div class="forecastcontainer">
+        <div class="dailyforecast">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="rain cloud">
+            <p>some rain</p>
+            <div class="highlowtemp">
+                <div class="hightemp">
+                    <!-- Use a p tag around span and don't include the degree symbol in span to make it easier. -->
+                    <p><span>24</span>&#176;</p>
+                </div>
+                <div class="lowtemp">
+                    <p><span>18</span>&#176;</p>
+                </div>
+            </div>
+        </div>
+        <div class="dailyforecast">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="highlowtemp">
+                <div class="hightemp">
+                    <p><span>27</span>&#176;</p>
+                </div>
+                <div class="lowtemp">
+                    <p><span>19</span>&#176;</p>
+                </div>
+            </div>
+        </div>
+        <div class="dailyforecast">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="clouds">
+            <p>some clouds</p>
+            <div class="highlowtemp">
+                <div class="hightemp">
+                    <p><span>21</span>&#176;</p>
+                </div>
+                <div class="lowtemp">
+                    <p><span>16</span>&#176;</p>
+                </div>
+            </div>
+        </div>
+        <div class="dailyforecast">
+            <h2>Saturday</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <p>some sun</p>
+            <div class="highlowtemp">
+                <div class="hightemp">
+                    <p><span>26</span>&#176;</p>
+                </div>
+                <div class="lowtemp">
+                    <p><span>21</span>&#176;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cookiemessage">
+        <img src="assets/cookie.png" alt="cookie">
+        <div class="cookietext">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span class="cookielink">Read more...</span></p>
+        </div>
+        <button id="accept">I accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

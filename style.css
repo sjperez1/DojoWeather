@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #9fc5f8;
+    padding: 10px 0px;
+}
+
+.innernav {
+    background-color: aqua;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innernav h1 {
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.citytempselect {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Combine border width, style, and color in one line. */
+    border-bottom: 4px solid black;
+}
+
+.citytempselectright {
+    display: flex;
+    align-items: center;
+}
+
+.citytempselectright label {
+    margin-right: 10px;
+}
+
+/* Not necessary to put a line on the side of select. */
+select {
+    height: 40px;
+    font-size: 18px;
+}
+
+.forecastcontainer {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dailyforecast {
+    flex: 1;
+    padding: 25px;
+    background-color: #eeeeee;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dailyforecast h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.dailyforecast p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.highlowtemp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlowtemp p {
+    font-size: 26px;
+    margin: 0px 10px;
+}
+
+.hightemp p {
+    color: red;
+}
+
+.lowtemp p {
+    color: blue;
+}
+
+.cookiemessage {
+    width: 1000px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border: 4px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.cookiemessage img {
+    width: 95px;
+    margin: 0px 18px;
+}
+
+.cookielink {
+    color: blue;
+    cursor: pointer;
+}
+
+
+.cookietext {
+    
+}
+
+#accept {
+    width: ;
+    margin-right: 18px;
+    margin-left: 30px;
+}
