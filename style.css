@@ -112,6 +112,11 @@ img {
 }
 
 .cookiemessage {
+    position: fixed;
+    width: 100%;
+}
+
+.cookiemessageinner {
     width: 1000px;
     background-color: #eeeeee;
     margin: 0 auto;
