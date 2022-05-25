@@ -10,7 +10,6 @@
 }
 
 .innernav {
-    background-color: aqua;
     color: white;
     width: 1000px;
     margin: 0 auto;
@@ -130,16 +129,27 @@ img {
 
 .cookielink {
     color: blue;
+    text-decoration: underline;
     cursor: pointer;
 }
 
+.cookietext h2 {
+    font-size: 26px;
+}
 
-.cookietext {
-    
+.cookietext p {
+    font-size: 18px;
 }
 
 #accept {
-    width: ;
+    width: 150px;
+    padding: 7px 0px;
     margin-right: 18px;
     margin-left: 30px;
+    font-size: 16px;
+    font-weight: 550;
+    border-width: 3px;
+    box-shadow: 2.5px 2.5px 1px;
+    background-color: #9fc5f8;
+    cursor: pointer;
 }
